@@ -18,7 +18,7 @@ function App() {
       temperature: 0.4,
       topK: 1,
       topP: 1,
-      maxOutputTokens: 100,
+      maxOutputTokens: 1024,
     };
 
     const parts = [{ text: newQuestion }];
